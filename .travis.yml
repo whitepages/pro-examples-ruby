@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.2
+install: true
+script:
+  - ruby lead_verify.rb
+  - ruby identity_check.rb
